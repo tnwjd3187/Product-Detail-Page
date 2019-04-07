@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>view Product</title>
 </head>
-<body>
+<body style = "margin-left: 35%">
 	<h1 style = "margin-top: 20px">Product Detail</h1>
 	Here is the detail information of the product!
 
@@ -21,7 +21,11 @@
 			<div class="col-md-6">
 				<h3>${product.name}</h3>
 				<p>${product.description}</p>
-
+				<p>manufacturer : ${product.manufacturer}</p>
+				<p>category : ${product.category}</p>
+				<p>${product.price}원</p>
+				
+		
 			</div>
 		</div>
 	</div>
